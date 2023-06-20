@@ -28,4 +28,4 @@ library, I'm creating a script that does the following:
 
 For example, if you input n = 20, you'll have the following output...
 
-![The 20x20 multiplication table](User/michaelmckee/Coding/times_table_pic.png)
+![The 20x20 multiplication table](images/times_table_pic.png)
