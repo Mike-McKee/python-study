@@ -25,3 +25,7 @@ library, I'm creating a script that does the following:
 
 1. Allow user to input any integer n
 2. Print the multiplication table for all integers 0 to n
+
+For example, if you input n = 20, you'll have the following output...
+
+![The 20x20 multiplication table](/User/michaelmckee/Coding/times_table_pic.png)
