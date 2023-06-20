@@ -17,3 +17,11 @@ my parameters, it automatically moves the pic to a different folder.
 This one didn't take long to make.
 
 And I used Python's **os** and **shutil** libraries.
+
+## times_table.py
+
+This project is my first "tough" one in python. Using the **pandas**
+library, I'm creating a script that does the following:
+
+1. Allow user to input any integer n
+2. Print the multiplication table for all integers 0 to n
