@@ -29,3 +29,6 @@ library, I'm creating a script that does the following:
 For example, if you input n = 20, you'll have the following output...
 
 ![The 20x20 multiplication table](images/times_table_pic.png)
+
+I didn't remember much about **while** statements, so it took me some time to understand how not to make
+them run infinitely. But luckily I made it work so that invalid inputs make the user try again.
