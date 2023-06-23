@@ -6,7 +6,7 @@ and code I've made while learning Python.
 I'm far from an expert at the language, but this is what I've managed
 to do with it so far.
 
-So, enjoy...
+So enjoy...
 
 ## file_ai.py
 
