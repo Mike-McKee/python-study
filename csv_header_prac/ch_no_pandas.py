@@ -1,7 +1,7 @@
 #Here I'm renaming a csv file's headers without using pandas
 import csv
 
-with open('csv_raw.csv', 'r') as file:
+with open('dirty_csv.csv', 'r') as file:
     reader = csv.reader(file)
     rows = list(reader)
 

@@ -1,7 +1,7 @@
 #Here I'm changing a csv file's headers using pandas built in functions
 import pandas as pd
 
-df = pd.read_csv('pandas_raw.csv')
+df = pd.read_csv('dirty_csv.csv')
 
 df.rename(columns={'Header_@': 'Header_2',
                    'haeder_4': 'Header_4',
