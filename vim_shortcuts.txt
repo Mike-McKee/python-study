@@ -1,0 +1,53 @@
+---------------------------------------------------------------------------
+| Here are some VIM shortcuts that will be useful on my journey with them |
+--------------------------------------------------------------------------
+
+Basic Movements:
+----------------
+
+    --> 'h', 'j', 'k', 'l' --> replacements for arrow keys
+    --> 'w' --> move to the beginning of the next word
+    --> 'b' --> move to the beginning of the previous word
+    --> 'e' --> move to the end of the current word
+    --> '0' --> move to the beginning of the current line
+    --> '$' --> move to the end of the current line
+    --> 'gg' --> go to the first line in the document
+    --> 'G' --> go to the last line in the document
+    --> ':' + 'line number' --> go to a specific line in the document
+
+Editing:
+--------
+    --> 'i' --> enter insert mode
+    --> 'I' --> enter insert mode at begining of the line
+    --> 'a' --> enter insert mode after the cursor
+    --> 'A' --> enter insert mode at the end of the line
+    --> 'o' --> enter insert mode on new line below cursor
+    --> 'O' --> enter insert mode on new line above cursor
+
+Deleting characters:
+--------------------
+    --> 'dw' --> deletes everything from the cursor to the beginning of the next word
+    --> 'diw' --> deletes the whole word the cursor is in 
+    --> 'd$' --> deletes everything to the right in the line (like Ctrl + K)
+    --> 'd}' --> deletes everything in the next paragraph
+    --> 'dd' --> deletes the entire line
+    --> 'yy' --> yanks (copies) and entire line
+    --> 'p' --> pastes previously yanked (copied) text
+
+Search and Replace:
+-------------------
+    --> '/' --> searches for keywords forwards 
+    --> '?' --> searches for keywords backwards
+    --> 'n' --> jump to next search result
+    --> 'N' --> jump to previous search result
+    --> ':%s/{old}/{new}/g' --> replaces all occurrences of {old} with {new} in entire file
+
+Undo and Redo:
+--------------
+    --> 'u' --> undo
+    --> 'Ctrl + r' --> redo
+
+Page Formatting:
+----------------
+    --> ':set number' --> adds line numbers on the left side 
+    --> ':set nonumber' --> removes line numbers on the left side
