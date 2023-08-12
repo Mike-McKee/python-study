@@ -23,6 +23,9 @@ Editing:
     --> 'A' --> enter insert mode at the end of the line
     --> 'o' --> enter insert mode on new line below cursor
     --> 'O' --> enter insert mode on new line above cursor
+    --> 'ddp' --> moves an entire line down one
+    --> 'ddkP' --> moves an entire line up one
+
 
 Deleting characters:
 --------------------
@@ -33,6 +36,7 @@ Deleting characters:
     --> 'dd' --> deletes the entire line
     --> 'yy' --> yanks (copies) and entire line
     --> 'p' --> pastes previously yanked (copied) text
+    --> ': {line number}, {line number}y' --> copies multiple lines at once
 
 Search and Replace:
 -------------------
@@ -41,6 +45,8 @@ Search and Replace:
     --> 'n' --> jump to next search result
     --> 'N' --> jump to previous search result
     --> ':%s/{old}/{new}/g' --> replaces all occurrences of {old} with {new} in entire file
+    --> ':{line num},{line num}s/{old}/{new}/g' --> search and replace within range
+    --> 'gc' --> useful in above two commands... rather than replace all immediately, it lets you check y/n for each first 
 
 Undo and Redo:
 --------------
